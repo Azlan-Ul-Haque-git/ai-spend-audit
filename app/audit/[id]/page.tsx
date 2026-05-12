@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 interface Props {
     params: Promise<{
         id: string;
@@ -68,7 +69,9 @@ export default async function AuditPage({
                 </div>
 
             </div>
-
+            <div className="mt-20">
+                <Footer />
+            </div>
         </main>
     );
 }
